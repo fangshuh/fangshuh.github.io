@@ -1,4 +1,4 @@
-var myHeading = document.querySelector('h1');
+var myHeading = document.querySelector('h2');
 myHeading.textContent = 'Hello world!';
 function multiply(num1, num2) {
   var result = num1 * num2;
@@ -15,7 +15,7 @@ myImage.onclick = function() {
     }
 }
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+var myHeading = document.querySelector('h2');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
